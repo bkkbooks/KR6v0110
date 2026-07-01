@@ -1,0 +1,67 @@
+canonical_identifier: bkk:krp/KR6v0110/v1
+canonical_location: https://kanripo.org/bkk/KR6v0110/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 法華七禮文
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW10/ZW10n0083.xml
+    old_id: ZW10n0083
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0110_000.yaml, hash: 'sha256:a4ccc53d63cca8e81d8a0d74afe5f6f7133c022ab37d0aaf9b6ef70654f81936'}
+  - {seq: 1, filename: KR6v0110_001.yaml, hash: 'sha256:8e7e9b31c47200e1628eedeac68071b72f7378ea9f57089e296c0365910d84d5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0110_000.markers.yaml, hash: 'sha256:8fa119b989cd47582b710bc21d4a9910dfd1fc2fa82fa0b893401d60f20c3907'}
+  - {seq: 1, role: markers, filename: assets/KR6v0110_001.markers.yaml, hash: 'sha256:c4ce662e8b2363f946cbf933483685a01dce05860715aac32ded48cb8b2249ed'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0110_ZW_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0110_ZW_000-mulu-2
+    span:
+    - front
+    - 320
+    - 320
+  label: 錄文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0110_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 5718
+  label: 法華七禮文
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0110_ZW_001-mulu-1
+    span:
+    - body
+    - 233
+    - 233
+  label: 附：關於《法華七禮文》
+  type: mulu
+  level: 1
+hash: sha256:7883bc877daa65b79d56d30ae2770f051d06409386bccc1226769df305a74e52
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: ZW
