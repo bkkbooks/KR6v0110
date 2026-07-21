@@ -13,17 +13,17 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 0, filename: KR6v0110_000.yaml, hash: 'sha256:a4ccc53d63cca8e81d8a0d74afe5f6f7133c022ab37d0aaf9b6ef70654f81936'}
+  - {seq: 0, filename: KR6v0110_000.yaml, hash: 'sha256:ff7e6ccedbe8b7a4021383a9f8b8405facd5fb98ba69d4c7ab4c17f1bd765bbf'}
   - {seq: 1, filename: KR6v0110_001.yaml, hash: 'sha256:80ab2c57a1fef418b683e1411c75d154fedfe9fa3797c4d0d5facba54e523d24'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6v0110_000.markers.yaml, hash: 'sha256:7fc1fea66436d286f02492d2636d6e38f95ee35bcd8c8b81c89c8a49a535a04e'}
+  - {seq: 0, role: markers, filename: assets/KR6v0110_000.markers.yaml, hash: 'sha256:febcf4cb8b9129070b3f4c94d26eb2d6e5745bf12d230eab376550fc934bb2a8'}
   - {seq: 1, role: markers, filename: assets/KR6v0110_001.markers.yaml, hash: 'sha256:5599d1068cbecf02452071fad9f65b81404939f1c6e3ba8f7562db1f2b66f10c'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6v0110_ZW_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 題解
@@ -33,7 +33,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6v0110_ZW_000-mulu-2
     span:
-    - front
+    - body
     - 320
     - 320
   label: 錄文
@@ -59,7 +59,7 @@ table_of_contents:
   label: 附：關於《法華七禮文》
   type: mulu
   level: 1
-hash: sha256:734a1c740e0cdc4009506083ad3acd2dbca440969c0675146d2f516a7d1538b7
+hash: sha256:965e4b0ea784b094a5d72427702a679ee49b1af88549a9f64889d3c1a7338852
 editions:
 - short: ZW
 mappings:
